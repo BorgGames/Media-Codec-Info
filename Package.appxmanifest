@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="5d6a6ba5-3306-4e85-a798-4e4004340bdc"
-    Publisher="CN=lost"
-    Version="1.0.0.0" />
+    Name="BorgGames.36602218E3EA2"
+    Publisher="CN=7F2431D3-1BEF-452C-8BCB-443E6DD9E5FA"
+    Version="0.0.3.0" />
 
-  <mp:PhoneIdentity PhoneProductId="5d6a6ba5-3306-4e85-a798-4e4004340bdc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="2e46e159-ada1-42fd-9b86-5cfe2a1557d9" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>UWP Codec Info</DisplayName>
-    <PublisherDisplayName>lost</PublisherDisplayName>
+    <DisplayName>Media Codec Info</DisplayName>
+    <PublisherDisplayName>Borg Queen, LLC</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,18 +32,14 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="UWP_Codec_Info.App">
       <uap:VisualElements
-        DisplayName="UWP Codec Info"
+        DisplayName="Media Codec Info"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="UWP Codec Info"
+        Description="Shows information about media codecs available on the system"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
-
-  <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities>
 </Package>
